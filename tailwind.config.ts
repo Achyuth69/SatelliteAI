@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom satellite imagery analysis colors
+				satellite: {
+					blue: 'hsl(var(--satellite-blue))',
+					ocean: 'hsl(var(--ocean-blue))',
+					forest: 'hsl(var(--forest-green))',
+					glacier: 'hsl(var(--glacier-cyan))',
+					terrain: 'hsl(var(--terrain-brown))',
+					alert: 'hsl(var(--alert-orange))',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

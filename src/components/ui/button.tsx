@@ -18,6 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        satellite: "bg-gradient-to-r from-satellite-blue to-satellite-ocean text-white shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200",
+        analysis: "bg-gradient-to-r from-accent to-satellite-forest text-white shadow-lg hover:shadow-xl border border-accent/20",
+        alert: "bg-satellite-alert text-white shadow-lg hover:bg-satellite-alert/90 animate-pulse",
       },
       size: {
         default: "h-10 px-4 py-2",
